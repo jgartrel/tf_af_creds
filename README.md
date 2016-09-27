@@ -33,7 +33,8 @@ provider "digitalocean" {
 
 ```
 
-To use this repo you will need to add a key to:
+To use this repo you will need to place a key in a "keys directory" on the machine from which you intend to use terraform:
+
 1. Create a keys directory: `mkdir -p -m 700 ~/.tf_af_keys`
 2. Copy the following key from Ilya; put them into the key dir (mode 0600)
   * `~/.tf_af_keys/tf_af_creds.key`
